@@ -1,0 +1,295 @@
+{
+        "scope": "source.js,source.js.embedded.html,source.coffee",
+        "version": "2.3.0",
+        "completions":
+        [
+              "BABYLON",
+              
+              /**
+                     INDEX
+                     
+                     1. Constants.
+                     2. Methods.
+              **/
+              
+              /*==================================
+              =           1. Constants.          =
+              ==================================*/
+              
+              /*==========  Custom Blending Equation.  ==========*/
+              
+              // Equations
+              "BABYLON.AddEquation",
+              "BABYLON.SubtractEquation",
+              "BABYLON.ReverseSubtractEquation",
+              "BABYLON.MinEquation",
+              "BABYLON.MaxEquation",
+              
+              // Destination Factors
+              "BABYLON.ZeroFactor",
+              "BABYLON.OneFactor",
+              "BABYLON.SrcColorFactor",
+              "BABYLON.OneMinusSrcColorFactor",
+              "BABYLON.SrcAlphaFactor",
+              "BABYLON.OneMinusSrcAlphaFactor",
+              "BABYLON.DstAlphaFactor",
+              "BABYLON.OneMinusDstAlphaFactor",
+              
+              // Source Factors
+              "BABYLON.DstColorFactor",
+              "BABYLON.OneMinusDstColorFactor",
+              "BABYLON.SrcAlphaSaturateFactor",
+              
+              /*==========  Materials.  ==========*/
+              
+              // Side.
+              "BABYLON.FrontSide",
+              "BABYLON.BackSide",
+              "BABYLON.DoubleSide",
+              // Shading.
+              "BABYLON.NoShading",
+              "BABYLON.FlatShading",
+              "BABYLON.SmoothShading",
+              // Colors.
+              "BABYLON.NoColors",
+              "BABYLON.FaceColors",
+              "BABYLON.VertexColors",
+              // Blending Mode.
+              "BABYLON.NoBlending",
+              "BABYLON.NormalBlending",
+              "BABYLON.AdditiveBlending",
+              "BABYLON.SubtractiveBlending",
+              "BABYLON.MultiplyBlending",
+              "BABYLON.CustomBlending",
+              
+              /*==========  GL State.  ==========*/
+
+              // Cull Face
+              "BABYLON.CullFaceNone",
+              "BABYLON.CullFaceBack",
+              "BABYLON.CullFaceFront",
+              "BABYLON.CullFaceFrontBack",
+              
+              // Front Face Direction
+              "BABYLON.FrontFaceDirectionCW",
+              "BABYLON.FrontFaceDirectionCCW",
+              
+              /*==========  Shadowing Type.  ==========*/
+
+              // Shadow Map
+              "BABYLON.BasicShadowMap",
+              "BABYLON.PCFShadowMap",
+              "BABYLON.PCFSoftShadowMap",
+              
+              /*==========  Texture.  ==========*/
+              
+              // Operations
+              "BABYLON.MultiplyOperation",
+              "BABYLON.MixOperation",
+              "BABYLON.AddOperation",
+              
+              // Mapping Modes
+              "BABYLON.UVMapping",
+              "BABYLON.CubeReflectionMapping",
+              "BABYLON.CubeRefractionMapping",
+              "BABYLON.EquirectangularReflectionMapping",
+              "BABYLON.EquirectangularRefractionMapping",
+              "BABYLON.SphericalReflectionMapping",
+              
+              // Wrapping Modes
+              "BABYLON.RepeatWrapping",
+              "BABYLON.ClampToEdgeWrapping",
+              "BABYLON.MirroredRepeatWrapping",
+              
+              // Filters
+              "BABYLON.NearestFilter",
+              "BABYLON.NearestMipMapNearestFilter",
+              "BABYLON.NearestMipMapLinearFilter",
+              "BABYLON.LinearFilter",
+              "BABYLON.LinearMipMapNearestFilter",
+              "BABYLON.LinearMipMapLinearFilter",
+              
+              // Data Types
+              "BABYLON.UnsignedByteType",
+              "BABYLON.ByteType",
+              "BABYLON.ShortType",
+              "BABYLON.UnsignedShortType",
+              "BABYLON.IntType",
+              "BABYLON.UnsignedIntType",
+              "BABYLON.FloatType",
+              "BABYLON.HalfFloatType",
+              
+              // Pixel Types
+              "BABYLON.UnsignedShort4444Type",
+              "BABYLON.UnsignedShort5551Type",
+              "BABYLON.UnsignedShort565Type",
+              
+              // Pixel Formats
+              "BABYLON.AlphaFormat",
+              "BABYLON.RGBFormat",
+              "BABYLON.RGBAFormat",
+              "BABYLON.LuminanceFormat",
+              "BABYLON.LuminanceAlphaFormat",
+              "BABYLON.RGBEFormat",
+              
+              // DDS / ST3C Compressed Texture Formats
+              "BABYLON.RGB_S3TC_DXT1_Format",
+              "BABYLON.RGBA_S3TC_DXT1_Format",
+              "BABYLON.RGBA_S3TC_DXT3_Format",
+              "BABYLON.RGBA_S3TC_DXT5_Format",
+              
+              // PVRTC Compressed Texture Formats
+              "BABYLON.RGB_PVRTC_4BPPV1_Format",
+              "BABYLON.RGB_PVRTC_2BPPV1_Format",
+              "BABYLON.RGBA_PVRTC_4BPPV1_Format",
+              "BABYLON.RGBA_PVRTC_2BPPV1_Format",
+              
+              /*================================
+              =          2. Methods.           =
+              ================================*/
+              
+              { "trigger": "BABYLON.PerspectiveCamera", "contents": "BABYLON.PerspectiveCamera( ${1:fov}, ${2:aspect}, ${3:near}, ${4:far} );$0" },
+              { "trigger": "BABYLON.OrthographicCamera", "contents": "BABYLON.OrthographicCamera( ${1:left}, ${2:right}, ${3:top}, ${4:bottom}, ${5:near}, ${6:far} );$0" },
+              
+              { "trigger": "BABYLON.Clock", "contents": "BABYLON.Clock( ${1:autoStart} );$0" },
+              { "trigger": "BABYLON.Color", "contents": "BABYLON.Color( ${1:hex} );$0" },
+              { "trigger": "BABYLON.Face3", "contents": "BABYLON.Face3( a, b, c, normal, color, materialIndex );$0" },
+              { "trigger": "BABYLON.Face4", "contents": "Face4( a, b, c, d, normal, color, materialIndex );$0" },
+              { "trigger": "BABYLON.Frustrum", "contents": "BABYLON.Frustrum();$0" },
+              { "trigger": "BABYLON.Geometry", "contents": "BABYLON.Geometry();$0" },
+                                                          
+              { "trigger": "BABYLON.Math", "contents": "BABYLON.Math;$0" },
+              { "trigger": "BABYLON.Matrix3", "contents": "BABYLON.Matrix3();$0" },
+              { "trigger": "BABYLON.Matrix4", "contents": "BABYLON.Matrix4( n11, n12, n13, n14, n21, n22, n23, n24, n31, n32, n33, n34, n41, n42, n43, n44 );$0" },
+              { "trigger": "BABYLON.Object3D", "contents": "BABYLON.Object3D();$0" },
+              
+              { "trigger": "BABYLON.Projector", "contents": "BABYLON.Projector();$0" },
+              { "trigger": "BABYLON.Quaternion", "contents": "BABYLON.Quaternion();$0" },
+              { "trigger": "BABYLON.Ray", "contents": "BABYLON.Ray();$0" },
+              { "trigger": "BABYLON.Rectangle", "contents": "BABYLON.Rectangle();$0" },
+              { "trigger": "BABYLON.Spline", "contents": "BABYLON.Spline();$0" },
+
+              { "trigger": "BABYLON.UV", "contents": "BABYLON.UV( u, v );$0" },
+              { "trigger": "BABYLON.Vector2", "contents": "BABYLON.Vector2( ${1:x}, ${2:y} );$0" },
+              { "trigger": "BABYLON.Vector3", "contents": "BABYLON.Vector3( ${1:x}, ${2:y}, ${3:z} );$0" },
+              { "trigger": "BABYLON.Vector4", "contents": "BABYLON.Vector4( ${1:x}, ${2:y}, ${3:z}, ${4:w} );$0" },
+
+              { "trigger": "BABYLON.Light", "contents": "BABYLON.Light( ${1:hex} );$0" },
+              { "trigger": "BABYLON.AmbientLight", "contents": "BABYLON.AmbientLight( ${1:hex} );$0" },
+              { "trigger": "BABYLON.DirectionalLight", "contents": "BABYLON.DirectionalLight( ${1:hex}, ${2:intensity} );$0" },
+              { "trigger": "BABYLON.PointLight", "contents": "BABYLON.PointLight( ${1:color}, ${2:intensity}, ${3:distance} );$0" },
+              { "trigger": "BABYLON.SpotLight", "contents": "BABYLON.SpotLight();$0" },
+              
+              { "trigger": "BABYLON.Loader", "contents": "BABYLON.Loader();$0" },
+              { "trigger": "BABYLON.BinaryLoader", "contents": "BABYLON.BinaryLoader();$0" },
+              { "trigger": "BABYLON.JSONLoader", "contents": "BABYLON.JSONLoader();$0" },
+              { "trigger": "BABYLON.SceneLoader", "contents": "BABYLON.SceneLoader();$0" },
+              
+              { "trigger": "BABYLON.Material", "contents": "BABYLON.Material( ${1:id}, ${2:name}, ${3:opacity}, ${4:transparent}, ${5:blending} );$0" },
+              { "trigger": "BABYLON.LineBasicMaterial", "contents": "BABYLON.LineBasicMaterial( ${1:color}, ${2:linewidth}, ${3:linecap}, ${4:linejoin}, ${5:vertexColors} );$0" },
+              { "trigger": "BABYLON.MeshBasicMaterial", "contents": "BABYLON.MeshBasicMaterial( ${1:color}, ${2:map}, ${3:shading}, ${4:wireframe} );$0" },
+              { "trigger": "BABYLON.MeshDepthMaterial", "contents": "BABYLON.MeshDepthMaterial( ${1:morphTargets}, ${2:wireframe}, ${3:wireframeLinewidth} );$0" },
+              { "trigger": "BABYLON.MeshFaceMaterial", "contents": "BABYLON.MeshFaceMaterial( ${1:materials} );$0" },
+              { "trigger": "BABYLON.MeshLambertMaterial", "contents": "BABYLON.MeshLambertMaterial( ${1:color}, ${2:map}, ${3:shading}, ${4:wireframe} );$0" },
+              { "trigger": "BABYLON.MeshNormalMaterial", "contents": "BABYLON.MeshNormalMaterial( ${1:wireframe}, ${2:wireframeLinewidth}, ${3:morphTargets} );$0" },
+              { "trigger": "BABYLON.MeshPhongMaterial", "contents": "BABYLON.MeshPhongMaterial( ${1:color}, ${2:map}, ${3:shading}, ${4:wireframe} );$0" },
+              { "trigger": "BABYLON.PointCloudMaterial", "contents": "BABYLON.PointCloudMaterial( ${1:color}, ${2:map}, ${3:size}, ${4:vertexColors} );$0" },
+              //{ "trigger": "BABYLON.ParticleBasicMaterial", "contents": "BABYLON.ParticleBasicMaterial( ${1:parameters} );$0" },
+              //{ "trigger": "BABYLON.ParticleCanvasMaterial", "contents": "BABYLON.ParticleCanvasMaterial( ${1:parameters} );$0" },
+              //{ "trigger": "BABYLON.ParticleDOMMaterial", "contents": "BABYLON.ParticleDOMMaterial( ${1:parameters} );$0" },
+              { "trigger": "BABYLON.ShaderMaterial", "contents": "BABYLON.ShaderMaterial( ${1:uniforms}, ${2:attributes}, ${3:defines}, ${4:vertexShader} );$0" },
+              { "trigger": "BABYLON.RawShaderMaterial", "contents": "BABYLON.RawShaderMaterial( ${1:parameters} );$0" },
+              
+              { "trigger": "BABYLON.Bone", "contents": "BABYLON.Bone( belongsToSkin );$0" },
+              { "trigger": "BABYLON.Line", "contents": "BABYLON.Line( geometry, material, type );$0" },
+              { "trigger": "BABYLON.LOD", "contents": "BABYLON.LOD( ${1:objects});$0" },
+              { "trigger": "BABYLON.Mesh", "contents": "BABYLON.Mesh( ${1:geometry}, ${2:material});$0" },
+              { "trigger": "BABYLON.MorphAnimMesh", "contents": "BABYLON.MorphAnimMesh( ${1:geometry}, ${2:material});$0;" },
+              { "trigger": "BABYLON.Particle", "contents": "BABYLON.Particle( ${1:material} );$0" },
+              { "trigger": "BABYLON.ParticleSystem", "contents": "BABYLON.ParticleSystem( ${1:geometry}, ${2:material});$0" },
+              { "trigger": "BABYLON.Ribbon", "contents": "BABYLON.Ribbon( ${1:geometry}, ${2:material});$0" },
+              { "trigger": "BABYLON.SkinnedMesh", "contents": "BABYLON.SkinnedMesh( ${1:geometry}, ${2:material});$0" },
+              { "trigger": "BABYLON.Sprite", "contents": "BABYLON.Sprite( ${1:parameters} );$0" },
+
+              { "trigger": "BABYLON.CanvasRenderer", "contents": "BABYLON.CanvasRenderer( ${1:parameters} );$0" },
+              { "trigger": "BABYLON.DOMRenderer", "contents": "BABYLON.DOMRenderer();$0" },
+              { "trigger": "BABYLON.SVGRenderer", "contents": "BABYLON.SVGRenderer();$0" },
+              { "trigger": "BABYLON.WebGLRenderer", "contents": "BABYLON.WebGLRenderer( ${1:parameters} );$0" },
+              { "trigger": "BABYLON.WebGLRenderTarget", "contents": "BABYLON.WebGLRenderTarget( width, height, options );$0" },
+              { "trigger": "BABYLON.WebGLRenderTargetCube", "contents": "BABYLON.WebGLRenderTargetCube( width, height, options );$0" },
+              { "trigger": "BABYLON.ShaderChunk", "contents": "BABYLON.ShaderChunk;$0" },
+              { "trigger": "BABYLON.ShaderLib", "contents": "BABYLON.ShaderLib;$0" },
+
+              { "trigger": "BABYLON.RenderableFace3", "contents": "BABYLON.RenderableFace3();$0" },
+              { "trigger": "BABYLON.RenderableFace4", "contents": "BABYLON.RenderableFace4();$0" },
+              { "trigger": "BABYLON.RenderableLine", "contents": "BABYLON.RenderableLine();$0" },
+              { "trigger": "BABYLON.RenderableObject", "contents": "BABYLON.RenderableObject();$0" },
+              { "trigger": "BABYLON.RenderableParticle", "contents": "BABYLON.RenderableParticle();$0" },
+              { "trigger": "BABYLON.RenderableVertex", "contents": "BABYLON.RenderableVertex();$0" },
+
+              { "trigger": "BABYLON.Fog", "contents": "BABYLON.Fog( hex, near, far );$0" },
+              { "trigger": "BABYLON.FogExp2", "contents": "BABYLON.FogExp2( hex, density );$0" },
+
+              { "trigger": "BABYLON.Scene", "contents": "BABYLON.Scene();$0" },
+              
+              { "trigger": "BABYLON.DataTexture", "contents": "BABYLON.DataTexture( data, width, height, format, type, mapping, wrapS, wrapT, magFilter, minFilter );$0" },
+              { "trigger": "BABYLON.Texture", "contents": "BABYLON.Texture( image, mapping, wrapS, wrapT, magFilter, minFilter, format, type );$0" },
+
+              { "trigger": "BABYLON.ColorUtils", "contents": "BABYLON.ColorUtils$0" },
+              { "trigger": "BABYLON.GeometryUtils", "contents": "BABYLON.GeometryUtils$0" },
+              { "trigger": "BABYLON.ImageUtils", "contents": "BABYLON.ImageUtils$0" },
+              { "trigger": "BABYLON.SceneUtils", "contents": "BABYLON.SceneUtils$0" },
+              { "trigger": "BABYLON.ShaderUtils", "contents": "BABYLON.ShaderUtils$0" },
+
+              { "trigger": "BABYLON.Animation", "contents": "BABYLON.Animation( root, data, interpolationType, JITCompile );$0" },
+              { "trigger": "BABYLON.AnimationHandler", "contents": "BABYLON.AnimationHandler();$0" },
+              { "trigger": "BABYLON.AnimationMorphTarget", "contents": "BABYLON.AnimationMorphTarget( root, data );$0" },
+              { "trigger": "BABYLON.KeyFrameAnimation", "contents": "BABYLON.KeyFrameAnimation( root, data, JITCompile );$0" },
+
+              { "trigger": "BABYLON.CombinedCamera", "contents": "BABYLON.CombinedCamera( width, height, fov, near, far, orthonear, orthofar );$0" },
+              { "trigger": "BABYLON.CubeCamera", "contents": "BABYLON.CubeCamera( near, far, cubeResolution );$0" },
+
+              { "trigger": "BABYLON.FirstPersonControls", "contents": "BABYLON.FirstPersonControls( object, domElement );$0" },
+              { "trigger": "BABYLON.FlyControls", "contents": "BABYLON.FlyControls( object, domElement );$0" },
+              { "trigger": "BABYLON.PathControls", "contents": "BABYLON.PathControls( object, domElement );$0" },
+              { "trigger": "BABYLON.RollControls", "contents": "BABYLON.RollControls( object, domElement );$0" },
+              { "trigger": "BABYLON.TrackballControls", "contents": "BABYLON.TrackballControls( object, domElement );$0" },
+
+              { "trigger": "BABYLON.BufferGeometry", "contents": "BABYLON.BufferGeometry();$0" },
+              { "trigger": "BABYLON.Curve", "contents": "BABYLON.Curve();$0" },
+              { "trigger": "BABYLON.CurvePath", "contents": "BABYLON.CurvePath();$0" },
+              { "trigger": "BABYLON.EventTarget", "contents": "BABYLON.EventTarget();$0" },
+              { "trigger": "BABYLON.Gyroscope", "contents": "BABYLON.Gyroscope();$0" },
+              { "trigger": "BABYLON.Path", "contents": "BABYLON.Path( points );$0" },
+              { "trigger": "BABYLON.Shape", "contents": "BABYLON.Shape();$0" },
+              { "trigger": "BABYLON.TextPath", "contents": "BABYLON.TextPath( text, parameters );$0" },
+
+              { "trigger": "BABYLON.CubeGeometry", "contents": "BABYLON.CubeGeometry( width, height, depth, segmentsWidth, segmentsHeight, segmentsDepth, materials, sides );$0" },
+              { "trigger": "BABYLON.CylinderGeometry", "contents": "BABYLON.CylinderGeometry( radiusTop, radiusBottom, height, segmentsRadius, segmentsHeight, openEnded );$0" },
+              { "trigger": "BABYLON.ExtrudeGeometry", "contents": "BABYLON.ExtrudeGeometry( shapes, options );$0" },
+              { "trigger": "BABYLON.IcosahedronGeometry", "contents": "BABYLON.IcosahedronGeometry( radius, detail );$0" },
+              { "trigger": "BABYLON.LatheGeometry", "contents": "BABYLON.LatheGeometry( points, steps, angle );$0" },
+              { "trigger": "BABYLON.OctahedronGeometry", "contents": "BABYLON.OctahedronGeometry( radius, detail );$0" },
+              { "trigger": "BABYLON.PlaneGeometry", "contents": "BABYLON.PlaneGeometry( width, depth, segmentsWidth, segmentsDepth );$0" },
+              { "trigger": "BABYLON.PolyhedronGeometry", "contents": "BABYLON.PolyhedronGeometry( vertices, faces, radius, detail );$0" },
+              { "trigger": "BABYLON.SphereGeometry", "contents": "BABYLON.SphereGeometry( radius, segmentsWidth, segmentsHeight, phiStart, phiLength, thetaStart, thetaLength );$0" },
+              { "trigger": "BABYLON.TetrahedronGeometry", "contents": "BABYLON.TetrahedronGeometry( radius, detail );$0" },
+              { "trigger": "BABYLON.TextGeometry", "contents": "BABYLON.TextGeometry( text, parameters );$0" },
+              { "trigger": "BABYLON.TorusGeometry", "contents": "BABYLON.TorusGeometry( radius, tube, segmentsR, segmentsT, arc );$0" },
+              { "trigger": "BABYLON.TorusKnotGeometry", "contents": "BABYLON.TorusKnotGeometry( radius, tube, segmentsR, segmentsT, p, q, heightScale );$0" },
+
+              { "trigger": "BABYLON.AxisHelper", "contents": "BABYLON.AxisHelper();$0" },
+              { "trigger": "BABYLON.CameraHelper", "contents": "BABYLON.CameraHelper();$0" },
+
+              { "trigger": "BABYLON.SubdivisionModifier", "contents": "BABYLON.SubdivisionModifier( subdivisions );$0" },
+
+              { "trigger": "BABYLON.LensFlare", "contents": "BABYLON.LensFlare( texture, size, distance, blending, color );$0" },
+
+              { "trigger": "BABYLON.LensFlarePlugin", "contents": "BABYLON.LensFlarePlugin();$0" },
+              { "trigger": "BABYLON.ShadowMapPlugin", "contents": "BABYLON.ShadowMapPlugin();$0" },
+              { "trigger": "BABYLON.SpritePlugin", "contents": "BABYLON.SpritePlugin();$0" },
+
+              { "trigger": "BABYLON.ShaderFlares", "contents": "BABYLON.ShaderFlares;$0" },
+              { "trigger": "BABYLON.ShaderSprite", "contents": "BABYLON.ShaderSprite;$0" }
+        ]
+}
